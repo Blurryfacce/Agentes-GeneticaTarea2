@@ -27,7 +27,7 @@ public class AgenteEvolutivo extends Agent {
                 if (msg != null) {
                     System.out.println(getLocalName() + " recibió parámetros para ejecutar algoritmo genético.");
 
-                    // Por simplicidad, asumimos que el contenido del mensaje son los parámetros separados por comas:
+                    // Por facilidaad, asumimos que el contenido del mensaje son los parámetros separados por comas:
                     // genes,poblacionInicial,maxGeneraciones,evolucion
                     String contenido = msg.getContent();
                     String[] partes = contenido.split(",");

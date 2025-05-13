@@ -10,7 +10,7 @@ public class IndividuoUtils {
         int x3 = (int) ic.getGene(3).getAllele();
         int x4 = (int) ic.getGene(4).getAllele();
 
-        int signoY = (int) ic.getGene(5).getAllele(); // no se usa pero se mantiene para compatibilidad
+        int signoY = (int) ic.getGene(5).getAllele(); 
         int y1 = (int) ic.getGene(6).getAllele();
         int y2 = (int) ic.getGene(7).getAllele();
         int y3 = (int) ic.getGene(8).getAllele();
